@@ -304,4 +304,7 @@ $(".attackButton").on("click", function() {
     }
 });
 
+$(".restartButton").on("click", function() {
+    location.reload(true);
+});
 });
