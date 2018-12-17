@@ -14,9 +14,66 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     </head>
     <body>
+        <!--Audio to be palyed at the background-->
+        <iframe src="assets/sounds/silence.wav" allow="autoplay" id="audio" style="display:none"></iframe>
+        <audio id="myVideo" autoplay loop>
+            <source src="assets/sounds/star-wars.mp3" type="audio/mp3">
+            <p>Your browser doesn't support HTML5 audio.</p>
+        </audio>
+        
         <!--Page Main Container-->
         <div class="container">
-           
+            <!--Player Area-->
+            <div class="playerSelectionArea">
+                <!--Players Characters as Buttons with Three Values (healthPoints - attackPower - attackPowerCounter-->
+                <button class="char1" charName="Fighter 01" healthPoints="100" attackPower="5" attackPowerCounter="15">
+                    <h3>Fighter 01</h3>
+                    <img class="charImage" src="assets/images/fighter01.jpg">
+                    <p id="p1">100</p>
+                </button>
+                <button class="char2" charName="Fighter 02" healthPoints="180" attackPower="10" attackPowerCounter="20">
+                    <h3>Fighter 02</h3>
+                    <img class="charImage" src="assets/images/fighter02.png">
+                    <p id="p2">180</p>
+                </button>
+                <button class="char3" charName="Fighter 03" healthPoints="230" attackPower="5" attackPowerCounter="25">
+                    <h3>Fighter 03</h3>
+                    <img class="charImage" src="assets/images/fighter03.jpg">
+                    <p id="p3">230</p>
+                </button>
+                <button class="char4" charName="Fighter 04" healthPoints="140" attackPower="10" attackPowerCounter="30">
+                    <h3>Fighter 04</h3>
+                    <img class="charImage" src="assets/images/fighter04.jpg">
+                    <p id="p4">140</p>
+                </button>
+
+                <p id="areaTitle">Your Character</p>
+            </div>
+            <!--End of Player Area-->
+            <!--Enemy Area-->
+            <div class="enemiesSelectionArea">
+                <div class="enemies"></div>
+                <p id="areaTitle">Enemies Available to Attack</p>
+            </div>
+            <!--End of Enemy Area-->
+            <!--Attack Area-->
+            <div class="attackArea">
+                    <div class="attack"></div>
+                    <p id="areaTitle">Fight Section</p>
+            </div>
+            <!--End of Attack Area-->
+            <!--Attack Button-->
+            <button class="attackButton">Attack</button>
+            <!--End of Attack Button-->
+            <!--Defender Area-->
+            <div class="defenderArea">
+                <div class="def"></div>
+                <p id="areaTitle">Defender</p>
+            </div>
+            <!--End of Defender Area-->
+            <!--Restart Button-->
+            <button class="restartButton">Restart</button>
+            <!--End of Restart Button-->
         </div> 
         <!--Main JS file-->
         <script src="assets/javascript/game.js"></script>

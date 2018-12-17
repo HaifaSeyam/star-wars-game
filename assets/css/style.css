@@ -1,0 +1,146 @@
+/*Start main rules*/
+body {
+    background-image: url('../images/bg.jpg');
+}
+.container {
+    width: 960px;
+    margin: 20px auto;
+}
+/*End main rules*/
+
+/*Start content*/
+.playerSelectionArea {
+    height: 250px;
+    overflow: hidden;
+}
+
+p#areaTitle {
+    color: yellow;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+}
+.char1, .char2, .char3, .char4 {
+    width: 150px;
+    height: 200px;
+    background-color: green;
+}
+
+h1, p {
+    font-size: 20px;
+    text-align: center;
+}
+
+img {
+    width: 100px;
+    height: 90px;
+}
+/*End content*/
+
+/*Start footer
+
+footer {
+    background-color: #CCC;
+    min-height: 100px;
+}
+footer .info {
+    height: 100px;
+    background-color: khaki;
+    margin-top: 2px;
+    border: 4px dashed black;
+}
+footer .info p {
+  color: red;
+  font-size: 40px;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 20px;
+}
+footer .copyright {
+  height: 20px;
+  text-align: center;
+  border: 1px solid black;
+} 
+End footer*/
+
+
+
+/* Responsiveness to be added later
+@media screen and (max-width: 980px) {
+    .main-section {
+      width: 60%;
+      margin-left: 10px;
+    }
+    #logo {
+      margin-left: 10px;
+    }
+    nav {
+      margin-right: 10px;
+    }
+    #contact-form ul {
+      padding-left: 0px;
+    }
+    .work:nth-child(even) {
+      margin-right: 30px auto;
+    }
+    .work {
+      width: 40%;
+    }
+  }
+  
+  
+  @media screen and (max-width: 768px) {
+    .main-section {
+      width: 100%;
+      margin: 10px auto;
+    }
+    #logo {
+      margin-left: 10px;
+    }
+    nav {
+      margin-right: 10px;
+    }
+    .auth-image {
+      width: 50%;
+    }
+    #contact-form {
+      width: 100%;
+    }
+    #contact-form ul {
+      padding-left: 0px;
+    }
+  }
+  .work {
+    width: 40%;
+  }
+  
+  
+  @media screen and (max-width: 640px) {
+    .main-section {
+      width: 100%;
+      margin: 10px auto;
+      font-size: 20px;
+    }
+    #logo {
+      width: 100%;
+      margin-left: 0px;
+    }
+    nav {
+      width: 100%;
+      text-align: center;
+      font-size: 16px;
+    }
+    .auth-image {
+      width: 100%;
+    }
+    #contact-form {
+      width: 100%;
+    }
+    #contact-form ul {
+      padding-left: 0px;
+    }
+    .work {
+      width: 100%;
+    }
+  }
+  */
